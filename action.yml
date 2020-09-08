@@ -1,5 +1,7 @@
 name: 'action-apidoc'
 description: 'generate apidoc with apidocjs'
+icon: book
+color: blue
 inputs:
   input:
     description: 'input directory'
