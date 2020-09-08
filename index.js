@@ -9,7 +9,7 @@ try {
 
   const src = path.resolve(__dirname, input)
   const dest = path.resolve(__dirname, output)
-  console.log(`generte apidoc input:${src} output:${desc}`)
+  console.log(`generte apidoc input:${src} output:${dest}`)
   const doc = createDoc({
     src: src,
     dest: dest
