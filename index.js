@@ -7,8 +7,8 @@ try {
   const input = core.getInput('input');
   const output = core.getInput('output');
 
-  const src = path.resolve(__dirname, input)
-  const dest = path.resolve(__dirname, output)
+  const src = path.resolve(input)
+  const dest = path.resolve(output)
   console.log(`generte apidoc input:${src} output:${dest}`)
   const doc = createDoc({
     src: src,
