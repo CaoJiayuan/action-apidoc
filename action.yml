@@ -1,4 +1,4 @@
-name: 'apidoc'
+name: 'action-apidoc'
 description: 'generate apidoc with apidocjs'
 inputs:
   input:
