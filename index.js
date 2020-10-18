@@ -9,7 +9,7 @@ try {
 
   const src = path.resolve(input)
   const dest = path.resolve(output)
-  console.log(`generte apidoc input:${src} output:${dest}`)
+  console.log(`generting apidoc input:${src} output:${dest}`)
   const doc = createDoc({
     src: src,
     dest: dest
@@ -17,8 +17,7 @@ try {
 
   if (typeof doc !== 'boolean') {
     // Documentation was generated!
-    console.log(doc.data) // `api_data.json` file content
-    console.log(doc.project) // `api_project.json` file content
+    console.log('Documentation was generated!')
   }
 } catch (error) {
   console.log(`generte apidoc error`)
